@@ -29,10 +29,10 @@ const serverConfig = {
     rules: [
       {
         test: /\.(jsx|js)?$/,
-        exclude: /node_modules/, 
-        use: { 
+        exclude: /node_modules/,
+        use: {
           loader: 'babel-loader'
-        } 
+        }
       },
       {
         test: /\.(css|less)$/,
@@ -66,10 +66,10 @@ const clientConfig = {
     rules: [
       {
         test: /\.(jsx|js)?$/,
-        exclude: /node_modules/, 
-        use: { 
+        exclude: /node_modules/,
+        use: {
           loader: 'babel-loader'
-        } 
+        }
       },
       {
         test: /\.(css|less)$/,
